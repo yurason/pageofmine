@@ -1,0 +1,137 @@
+body {
+  font-family: 'Apple SD Gothic Neo',arial,sans-serif;
+}
+
+.background {
+  color: black;
+}
+
+.background :hover {
+  color: lightgray;
+}
+
+#boxes {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 482px;
+}
+
+#box {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: none;
+  padding-left: 50px;
+  font-size: 16px;
+  color: black;
+  background: transparent;
+}
+
+
+
+#jpg1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+#jpg1 :hover {
+  opacity: 0.3;
+}
+
+#jpg2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-left: 450px;
+}
+
+#jpg2 :hover {
+  opacity: 0.3;
+}
+
+#jpg3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-left: 900px;
+}
+
+#jpg3 :hover {
+  opacity: 0.3;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  font-size: 18px;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.title :hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(250, 237, 125);
+  font-size: 40px;
+}
+
+#t1 :hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(250, 237, 125);
+}
+
+#text1 {
+  padding-left: 40px;
+  color: lightgray;
+  font-size: 12px;
+  padding-left: 40px;
+}
+
+#text1 :hover {
+  text-decoration: underline;
+}
+
+#text2 {
+  padding-left: 40px;
+  color: lightgray;
+  font-size: 12px;
+  padding-left: 450px;
+}
+
+#text2 :hover {
+  text-decoration: underline;
+}
+
+#text3 {
+  padding-left: 40px;
+  color: lightgray;
+  font-size: 12px;
+  padding-left: 900px;
+}
+
+#text3 :hover {
+  text-decoration: underline;
+}
+
+.background :hover {
+  text-decoration: underline;
+  color: white;
+}
